@@ -1,0 +1,25 @@
+{
+  "name": "first_blog_design",
+  "version": "1.0.0",
+  "description": "thia is my first blog design for Hugo, Jekyll and gatsbyJS theme",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/main.scss   assets/css/main.css",
+    "run": "nodemon -e scss -x \"npm run build-css\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmjadRathod/first_blog_design.git"
+  },
+  "author": "Amjad Rathod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmjadRathod/first_blog_design/issues"
+  },
+  "homepage": "https://github.com/AmjadRathod/first_blog_design#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1"
+  }
+}
